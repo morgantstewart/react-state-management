@@ -19,7 +19,13 @@ const App = () => {
         <button onClick={() => handleMode('dark')}>Dark Mode</button>
         <button onClick={() => handleMode('light')}>Light Mode</button>
       </div>
+      <br></br>
+        <div>
+        <button onClick={() => handleMode('neon')}>Neon Mode</button>
+        <button onClick={() => handleMode('night')}>Night Mode</button>
+      </div>
     </>
+
   );
 };
 
